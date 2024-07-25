@@ -18,7 +18,7 @@ resetButton.addEventListener("click", () => {
 })
 
 function startClock(){
-
+    interval = setInterval(timer, 1000);
 }
 
 function stopClock(){
