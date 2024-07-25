@@ -26,6 +26,11 @@ function timer() {
     setTime();
 }
 
+function setTime(){
+    const minutes = Math.floor(secondsElapsed / 60);
+    const seconds = secondsElapsed % 60;
+    time.innerHTML = `${minutes}:${seconds}`;
+}
 function stopClock(){
     
 }
