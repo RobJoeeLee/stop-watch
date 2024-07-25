@@ -37,7 +37,7 @@ function padStart(value){
 }
 
 function stopClock(){
-    
+    clearInterval(interval);
 }
 
 function resetClock(){
