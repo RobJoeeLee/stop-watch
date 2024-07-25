@@ -41,5 +41,7 @@ function stopClock(){
 }
 
 function resetClock(){
-    
+    stopClock();
+    secondsElapsed = 0;
+    setTime();
 }
