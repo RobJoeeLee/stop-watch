@@ -21,6 +21,11 @@ function startClock(){
     interval = setInterval(timer, 1000);
 }
 
+function timer() {
+    secondsElapsed++;
+    setTime();
+}
+
 function stopClock(){
     
 }
