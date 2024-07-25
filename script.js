@@ -2,6 +2,8 @@ const time = document.querySelector(".time");
 const startButton = document.querySelector(".start-button");
 const stopButton = document.querySelector(".stop-button");
 const resetButton = document.querySelector(".reset-button");
+let secondsElapsed = 0;
+let interval = null;
 
 startButton.addEventListener("click", () => {
     startClock();
